@@ -1,6 +1,6 @@
 ## Syncthing Docker Compose
 
-Compose-config to run the [Syncthing](https://syncthing.net/) and synchronize folders with Docker volume.
+Compose config to run the [Syncthing](https://syncthing.net/) and synchronize folders with Docker volume.
 
 ### Quick Start
 
