@@ -12,14 +12,12 @@ services:
       - UMASK_SET=022
     volumes:
       - config-syncthing:/config
-      - data-syncthing:/sync
+      - /mnt/data_syncthing/data:/sync
     ports:
       - 8384:8384
       - 22000:22000
       - 21027:21027/udp
 
 volumes:
-  data-syncthing:
-    external: true
   config-syncthing:
     driver: local
